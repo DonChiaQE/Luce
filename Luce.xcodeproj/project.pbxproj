@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B22414122417EBCA00EEEA21 /* ShotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22414112417EBCA00EEEA21 /* ShotDetailViewController.swift */; };
+		B224141424181C4F00EEEA21 /* CameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224141324181C4F00EEEA21 /* CameraCell.swift */; };
+		B224141624181C6100EEEA21 /* CameraHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B224141524181C6100EEEA21 /* CameraHeaderCell.swift */; };
 		B2BF5E282417ADA4003304C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E272417ADA4003304C1 /* AppDelegate.swift */; };
 		B2BF5E2A2417ADA4003304C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E292417ADA4003304C1 /* SceneDelegate.swift */; };
 		B2BF5E2C2417ADA4003304C1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E2B2417ADA4003304C1 /* CameraViewController.swift */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		B22414112417EBCA00EEEA21 /* ShotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotDetailViewController.swift; sourceTree = "<group>"; };
+		B224141324181C4F00EEEA21 /* CameraCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCell.swift; sourceTree = "<group>"; };
+		B224141524181C6100EEEA21 /* CameraHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHeaderCell.swift; sourceTree = "<group>"; };
 		B2BF5E242417ADA4003304C1 /* Luce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BF5E272417ADA4003304C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2BF5E292417ADA4003304C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 		B2BF5E462417CB86003304C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B224141524181C6100EEEA21 /* CameraHeaderCell.swift */,
+				B224141324181C4F00EEEA21 /* CameraCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B224141424181C4F00EEEA21 /* CameraCell.swift in Sources */,
+				B224141624181C6100EEEA21 /* CameraHeaderCell.swift in Sources */,
 				B2BF5E2C2417ADA4003304C1 /* CameraViewController.swift in Sources */,
 				B22414122417EBCA00EEEA21 /* ShotDetailViewController.swift in Sources */,
 				B2BF5E402417B0ED003304C1 /* UIViewExtensions.swift in Sources */,

@@ -10,6 +10,8 @@ import UIKit
 
 class CameraViewController: UITableViewController {
     let cellId = "cellId"
+    let headerId = "headerId"
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableViewProperties()
@@ -22,12 +24,23 @@ extension CameraViewController {
     fileprivate func setupTableViewProperties() {
         tableView.backgroundColor = .backgroundColor()
         tableView.tableFooterView = UIView()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
+        tableView.register(CameraCell.self, forCellReuseIdentifier: cellId)
     }
     
     fileprivate func setupUI() {
         setupClearNavBar()
         navigationItem.title = "Cameras"
+    }
+}
+// MARK: tableView Header functions
+extension CameraViewController {
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let view = CameraHeaderCell()
+        return view
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 20
     }
 }
 
@@ -38,7 +51,7 @@ extension CameraViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! CameraCell
         return cell
     }
     
