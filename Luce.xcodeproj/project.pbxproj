@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22414122417EBCA00EEEA21 /* ShotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22414112417EBCA00EEEA21 /* ShotDetailViewController.swift */; };
 		B2BF5E282417ADA4003304C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E272417ADA4003304C1 /* AppDelegate.swift */; };
 		B2BF5E2A2417ADA4003304C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E292417ADA4003304C1 /* SceneDelegate.swift */; };
-		B2BF5E2C2417ADA4003304C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E2B2417ADA4003304C1 /* ViewController.swift */; };
+		B2BF5E2C2417ADA4003304C1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E2B2417ADA4003304C1 /* CameraViewController.swift */; };
 		B2BF5E2F2417ADA4003304C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BF5E2D2417ADA4003304C1 /* Main.storyboard */; };
 		B2BF5E322417ADA4003304C1 /* Luce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E302417ADA4003304C1 /* Luce.xcdatamodeld */; };
 		B2BF5E342417ADA5003304C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BF5E332417ADA5003304C1 /* Assets.xcassets */; };
 		B2BF5E372417ADA5003304C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BF5E352417ADA5003304C1 /* LaunchScreen.storyboard */; };
 		B2BF5E402417B0ED003304C1 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E3F2417B0ED003304C1 /* UIViewExtensions.swift */; };
 		B2BF5E422417B186003304C1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E412417B186003304C1 /* UIColorExtension.swift */; };
+		B2BF5E442417CA10003304C1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E432417CA10003304C1 /* CoreDataManager.swift */; };
+		B2BF5E492417CEFA003304C1 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BF5E482417CEFA003304C1 /* FilmViewController.swift */; };
+		B2E0F85C2417D3C8006B94E8 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0F85B2417D3C8006B94E8 /* UIViewControllerExtensions.swift */; };
+		B2E0F85E2417E8E5006B94E8 /* ShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0F85D2417E8E5006B94E8 /* ShotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22414112417EBCA00EEEA21 /* ShotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotDetailViewController.swift; sourceTree = "<group>"; };
 		B2BF5E242417ADA4003304C1 /* Luce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BF5E272417ADA4003304C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2BF5E292417ADA4003304C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2BF5E2B2417ADA4003304C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2BF5E2B2417ADA4003304C1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		B2BF5E2E2417ADA4003304C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2BF5E312417ADA4003304C1 /* Luce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Luce.xcdatamodel; sourceTree = "<group>"; };
 		B2BF5E332417ADA5003304C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +36,10 @@
 		B2BF5E382417ADA5003304C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2BF5E3F2417B0ED003304C1 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		B2BF5E412417B186003304C1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B2BF5E432417CA10003304C1 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B2BF5E482417CEFA003304C1 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		B2E0F85B2417D3C8006B94E8 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		B2E0F85D2417E8E5006B94E8 /* ShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +72,12 @@
 		B2BF5E262417ADA4003304C1 /* Luce */ = {
 			isa = PBXGroup;
 			children = (
+				B2BF5E452417CB81003304C1 /* Models */,
+				B2BF5E462417CB86003304C1 /* Views */,
+				B2BF5E472417CB8B003304C1 /* Controllers */,
 				B2BF5E3E2417B0D7003304C1 /* Utils */,
 				B2BF5E272417ADA4003304C1 /* AppDelegate.swift */,
 				B2BF5E292417ADA4003304C1 /* SceneDelegate.swift */,
-				B2BF5E2B2417ADA4003304C1 /* ViewController.swift */,
 				B2BF5E2D2417ADA4003304C1 /* Main.storyboard */,
 				B2BF5E332417ADA5003304C1 /* Assets.xcassets */,
 				B2BF5E352417ADA5003304C1 /* LaunchScreen.storyboard */,
@@ -80,8 +92,35 @@
 			children = (
 				B2BF5E3F2417B0ED003304C1 /* UIViewExtensions.swift */,
 				B2BF5E412417B186003304C1 /* UIColorExtension.swift */,
+				B2E0F85B2417D3C8006B94E8 /* UIViewControllerExtensions.swift */,
+				B2BF5E432417CA10003304C1 /* CoreDataManager.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2BF5E452417CB81003304C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2BF5E462417CB86003304C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2BF5E472417CB8B003304C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2BF5E2B2417ADA4003304C1 /* CameraViewController.swift */,
+				B2BF5E482417CEFA003304C1 /* FilmViewController.swift */,
+				B2E0F85D2417E8E5006B94E8 /* ShotViewController.swift */,
+				B22414112417EBCA00EEEA21 /* ShotDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BF5E2C2417ADA4003304C1 /* ViewController.swift in Sources */,
+				B2BF5E2C2417ADA4003304C1 /* CameraViewController.swift in Sources */,
+				B22414122417EBCA00EEEA21 /* ShotDetailViewController.swift in Sources */,
 				B2BF5E402417B0ED003304C1 /* UIViewExtensions.swift in Sources */,
+				B2BF5E492417CEFA003304C1 /* FilmViewController.swift in Sources */,
 				B2BF5E282417ADA4003304C1 /* AppDelegate.swift in Sources */,
+				B2E0F85C2417D3C8006B94E8 /* UIViewControllerExtensions.swift in Sources */,
 				B2BF5E322417ADA4003304C1 /* Luce.xcdatamodeld in Sources */,
+				B2E0F85E2417E8E5006B94E8 /* ShotViewController.swift in Sources */,
 				B2BF5E2A2417ADA4003304C1 /* SceneDelegate.swift in Sources */,
+				B2BF5E442417CA10003304C1 /* CoreDataManager.swift in Sources */,
 				B2BF5E422417B186003304C1 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

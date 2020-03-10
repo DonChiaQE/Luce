@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Camera" representedClassName="Camera" syncable="YES" codeGenerationType="class">
+        <attribute name="films" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Film" representedClassName="Film" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="shots" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Shot" representedClassName="Shot" syncable="YES" codeGenerationType="class">
+        <attribute name="aperature" optional="YES" attributeType="String"/>
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="ios" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="shutterspeed" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Camera" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Film" positionX="-54" positionY="9" width="128" height="88"/>
+        <element name="Shot" positionX="-36" positionY="18" width="128" height="118"/>
+    </elements>
 </model>
